@@ -140,7 +140,7 @@ var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
 // Debugging use only
-var cookiePrint = document.getElementById('print');
+// var cookiePrint = document.getElementById('print');
 //
 function show_selected(value) {
         if (typeof value == 'undefined'){
@@ -176,7 +176,7 @@ function createCookie(name, value, days) {
     // Debugging use only
     cookiePrint.innerHTML = 'Print for Cookies!';
 }
-/* Debug Use Only */
+/* Debug Use Only
 function readCookie(name) {
     var nameEQ = name + "=";
     var ca = document.cookie.split(';');
@@ -187,5 +187,5 @@ function readCookie(name) {
     }
     return null;
 }
-/**/
+*/
 document.getElementById('selectbtn').addEventListener('click', get_selected);
