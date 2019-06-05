@@ -124,7 +124,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton) 
         showResults(questions, quizContainer, resultsContainer);
         // Creates cookie
         // Cookie should be active for 1 h 55 m
-        createCookie(quizContainer, percentageCookie, .08);
+        createCookie(quizContainer, percentageCookie, .06);
         // Searches for cookie
         cookieRead = readCookie(quizContainer);
         // Retrieves cookie
